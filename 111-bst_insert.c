@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * bst_insert - inserts a value in a Binary Search Tree
+ * bst_insert - this is to inserts value in the Binary Search Tree that we want
  * @tree: a double pointer to the root node of the BST to insert the value
  * @value: the value to store in the node to be inserted
  * Return: A pointer to the created node
