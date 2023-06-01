@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_complete - this is simply checks if the binary is complete or not
+ * binary_tree_is_complete - this simply checks if tree is complete or not
  * @tree: a pointer to root node of the tree we want to check
  *
  * Return: 1 if the tree is complete
