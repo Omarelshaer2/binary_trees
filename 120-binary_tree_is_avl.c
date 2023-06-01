@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_avl - finds if a binary tree is an avl
- * @tree: pointer to the root node of the tree
+ * binary_tree_is_avl - finds if tree is an avl or which exactly
+ * @tree: pointer to root of the tree we are in
  *
  * Return: 1 if tree is avl
  *         0 otherwise
@@ -16,7 +16,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 }
 
 /**
- * btia_helper - helper that finds if a binary tree is an avl
+ * btia_helper - this is about helper that finds if tree is an avl or what exactly
  * @tree: pointer to the root node of the tree
  * @min: minimum value
  * @max: maximum value
@@ -45,7 +45,7 @@ int btia_helper(const binary_tree_t *tree, int min, int max)
 }
 
 /**
- * binary_tree_height - measures the height of a binary tree
+ * binary_tree_height - this is just to measures height of the tree we want
  * @tree: tree to measure the height of
  *
  * Return: height of the tree
