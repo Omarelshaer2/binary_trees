@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * bst_insert - inserts a value in a Binary Search Tree
- * @tree: a double pointer to the root node of the BST to insert the value
- * @value: the value to store in the node to be inserted
+ * bst_insert - it inserts a value in the Search node of Tree we want
+ * @tree: the double pointer to root
+ * @value: the value to store in the node
  * Return: A pointer to the created node
  *         NULL on failure
  */
@@ -44,8 +44,8 @@ bst_t *bst_insert(bst_t **tree, int value)
 }
 
 /**
- * avl_insert - inserts a value in an AVL Tree
- * @tree: a double pointer to the root node of the AVL tree
+ * avl_insert - inserts a value
+ * @tree: a double pointer
  * @value: value to insert
  *
  * Return: a pointer to the created node
