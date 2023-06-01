@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_heap - checks if a binary tree is a valid Max Binary Heap
- * @tree: a pointer to the root node of the tree to check
+ * binary_tree_is_heap - checks if a binary tree
+ * @tree: a pointer to the root node 
  *
  * Return: 1 if tree is a valid Max Binary Heap
  *         0 if tree is NULL
@@ -16,10 +16,10 @@ int binary_tree_is_heap(const binary_tree_t *tree)
 }
 
 /**
- * btih_helper - checks if a binary tree is a valid Max Binary Heap
- * @tree: a pointer to the root node of the tree to check
+ * btih_helper - checks if a binary tree
+ * @tree: a pointer to root nod
  *
- * Return: 1 if tree is a valid Max Binary Heap
+ * Return: 1 if tree is a valid
  *         1 if tree is NULL
  *         0 otherwise
  */
@@ -43,7 +43,7 @@ int btih_helper(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_is_complete - checks if a binary tree is complete
+ * binary_tree_is_complete - checks if tree complete or not yet
  * @tree: a pointer to the root node of the tree to check
  *
  * Return: 1 if the tree is complete
@@ -63,7 +63,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 
 /**
  * btic_helper - checks if a binary tree is complete
- * @tree: a pointer to the root node of the tree to check
+ * @tree: a pointer to the root
  * @index: node index to check
  * @size: number of nodes in the tree
  *
@@ -84,8 +84,8 @@ int btic_helper(const binary_tree_t *tree, size_t index, size_t size)
 }
 
 /**
- * binary_tree_size - measures the size of a binary tree
- * @tree: tree to measure the size of
+ * binary_tree_size - measures the size
+ * @tree: tree to measure the size
  *
  * Return: size of the tree
  *         0 if tree is NULL
