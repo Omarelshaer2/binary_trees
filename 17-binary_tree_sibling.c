@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_sibling - finds the sibling of a node
- * @node: pointer to the node to find the sibling
+ * binary_tree_sibling - this is also finds sibling of the node which we want
+ * @node: this just pointer to root of what we want to find
  *
- * Return: pointer to the sibling node
+ * Return: pointer to the separated node in the tree
  *         NULL if node is NULL
  *         NULL if the parent is NULL
  *         NULL if the node has no siblings
